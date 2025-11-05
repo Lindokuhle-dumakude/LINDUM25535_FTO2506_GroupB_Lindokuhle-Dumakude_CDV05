@@ -195,3 +195,89 @@ footer {
   padding: 1rem;
 }
 
+/* ==== Responsiveness Styling ==== */
+
+/* Smartphones */
+
+@media (max-width: 480px) {
+  /* Prevent horizontal scroll globally */
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1rem;
+  }
+
+  .logo {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+  }
+
+  .nav-links a {
+    font-size: 0.85rem;
+    padding: 0.2rem 0.4rem;
+  }
+
+  .hero-content {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+
+  .hero-content h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  #about,
+  #projects,
+  #contact {
+    padding: 2.5rem 1rem;
+  }
+
+  #about .about-card {
+    padding: 1.5rem;
+    box-sizing: border-box;
+  }
+
+  form {
+    width: 100%;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+  }
+
+  input,
+  textarea,
+  button {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+}
