@@ -70,6 +70,20 @@ This portfolio is fully responsive:
 
 ---
 
+## ⚙️ Setup Instructions
+
+### 🖥️ Clone or Download the Project
+
+Open your terminal and run:
+
+```bash
+git https://github.com/Lindokuhle-dumakude/LINDUM25535_FTO2506_GroupB_Lindokuhle-Dumakude_CDV05.git
+```
+
+## 💾 Open the Project
+
+cd LINDUM25535_FTO2506_GroupB_Lindokuhle-Dumakude_CDV05
+
 ---
 
 ## 💡 Future Improvements
@@ -81,9 +95,9 @@ This portfolio is fully responsive:
 
 ## 👨‍💻 Author
 
-**Lindokuhle Dumakude**  
-💼 Aspiring Full-Stack Developer  
-📚 Student at CodeSpace  
+**Lindokuhle Dumakude**
+💼 Aspiring Full-Stack Developer
+📚 Student at CodeSpace
 🌍 Based in South Africa
 
 Connect with me for collaboration or feedback! 🚀
